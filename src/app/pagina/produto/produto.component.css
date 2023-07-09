@@ -1,0 +1,25 @@
+.produto{
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+}
+
+.container{
+  display:flex;
+  justify-content: space-around;
+}
+
+.lado{
+  display: flex;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  right: 20px;
+}
+
+.center{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
