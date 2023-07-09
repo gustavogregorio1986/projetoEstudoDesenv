@@ -1,0 +1,40 @@
+<div class="sobre">
+   <h2>Sobre - estudo sempre é fundamental</h2>
+   <p>O estudo é o desenvolvimento de atitudes e habilidades mediante a incorporação de novos
+    conhecimentos; este processo é geralmente efetuado através da leitura. O sistema de educação
+    que produz a socialização de um indivíduo dedica uma grande quantidade de horas na análise de
+    diversos temas. É por isso que foi desenvolvida uma série de estratégias com o objetivo de que
+    a tarefa estudada seja mais simples e que se consiga alcançar melhores resultados. Embora estes
+    métodos sejam variados, é possível destacar uma série de pautas recorrentes.
+    Em geral, a maioria dos sistemas de estudo enfatiza a importância de iniciar a tarefa de
+    adquirir novos conhecimentos em uma determinada área a partir da leitura superficial de um
+    tema. Assim, o que se procura em primeira instância é ter acesso a um panorama geral do que se
+    pretende saber em profundidade. Esta leitura inicial é particularmente importante quando se
+    trata de temas que possuem ideias ou conceitos prévios, ou então quando se realiza uma análise
+    ou a incorporação de conhecimentos em um idioma não nativo (como ocorre na interpretação de
+    textos científicos em uma língua diferente do leitor).</p>
+    <p>O Crescimento sempre eé atualização de nosso estudo diario, smmpre se aprimorandio da melhor
+    crescendo do melhor jeito, evoluindo da forma mais importnate de um estuod sempre aperfeioado,
+    para ser um profissional melhor e ter mais bagagem na hora de executar as tarefas do dia a dia.
+    O crescimento diario depende da atualização do profissional, smepre com essa dedicação aperfeiçoando.
+    O estudo sempre é muito fundamental para aprendermos mais as tecnologias, e smepre esta atenado o
+    mercado de trabalho.
+    </p>
+    <h2>Estudar é o conheicmento adquirido para trilhar o caminho!</h2>
+
+    <button type="button" (click)="onEditClick()" class="botao">clicar para modificar!</button>
+
+    <div *ngIf="canEdit; else noEdit">
+       <p>Podemos estudar sempre para se atualizarmos.</p>
+    </div>
+
+    <ng-template #noEdit>
+       <p>Podemos estudar tudo, que vimos durante o dia no trabalho para exercutar melhor!</p>
+    </ng-template>
+
+    <p [contentEditable]="canEdit">{{ message }}</p>
+
+    <h2>Contador: {{ contador }}</h2>
+    <button (click)="decrementar()" class="botao">Decrementar</button>
+    <button (click)="incrementar()" class="botao">Incrementar</button>
+   </div>

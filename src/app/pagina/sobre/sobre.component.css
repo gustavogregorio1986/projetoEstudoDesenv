@@ -1,0 +1,19 @@
+.sobre{
+   background-color: blue;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+p{
+  color: white;
+}
+
+.botao{
+   border-radius: 60px;
+   font-size: 15px;
+   background-color: black;
+   color: white;
+}
