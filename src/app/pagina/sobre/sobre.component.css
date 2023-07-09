@@ -17,3 +17,8 @@ p{
    background-color: black;
    color: white;
 }
+
+.center{
+  text-align: center;
+  font-weight: bold;
+}
