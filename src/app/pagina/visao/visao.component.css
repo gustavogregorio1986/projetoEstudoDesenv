@@ -1,0 +1,15 @@
+.visao{
+  width: 100%;
+  height: auto;
+  background-color: cadetblue
+}
+
+h2{
+  color: white;
+}
+
+.center{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
