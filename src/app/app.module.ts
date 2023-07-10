@@ -8,12 +8,16 @@ import { SobreComponent } from './pagina/sobre/sobre.component';
 import { ProdutoComponent } from './pagina/produto/produto.component';
 import { RouterModule, Routes } from '@angular/router';
 import { VisaoComponent } from './pagina/visao/visao.component';
+import { EstategiaComponent } from './pagina/estategia/estategia.component';
+import { LoginComponent } from './pagina/login/login.component';
 
 const routes: Routes = [
    { path: '', component: HomeComponent },
    { path: 'sobre', component: SobreComponent },
    { path: 'produto', component: ProdutoComponent },
    { path: 'visao', component: VisaoComponent  },
+   { path: 'estrategia', component: EstategiaComponent  },
+   { path: 'login', component: LoginComponent  },
 ]
 
 @NgModule({
@@ -23,6 +27,8 @@ const routes: Routes = [
     SobreComponent,
     ProdutoComponent,
     VisaoComponent,
+    EstategiaComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
