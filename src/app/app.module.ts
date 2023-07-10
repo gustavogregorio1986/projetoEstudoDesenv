@@ -10,7 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { VisaoComponent } from './pagina/visao/visao.component';
 
 const routes: Routes = [
-   { path: 'home', component: HomeComponent },
+   { path: '', component: HomeComponent },
    { path: 'sobre', component: SobreComponent },
    { path: 'produto', component: ProdutoComponent },
    { path: 'visao', component: VisaoComponent  },
