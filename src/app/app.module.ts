@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { VisaoComponent } from './pagina/visao/visao.component';
 import { EstategiaComponent } from './pagina/estategia/estategia.component';
 import { LoginComponent } from './pagina/login/login.component';
+import { CadastroComponent } from './pagina/cadastro/cadastro.component';
 
 const routes: Routes = [
    { path: '', component: HomeComponent },
@@ -29,6 +30,7 @@ const routes: Routes = [
     VisaoComponent,
     EstategiaComponent,
     LoginComponent,
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,
