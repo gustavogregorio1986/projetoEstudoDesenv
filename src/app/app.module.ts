@@ -19,6 +19,7 @@ const routes: Routes = [
    { path: 'visao', component: VisaoComponent  },
    { path: 'estrategia', component: EstategiaComponent  },
    { path: 'login', component: LoginComponent  },
+   { path: 'cadastro', component: CadastroComponent  },
 ]
 
 @NgModule({

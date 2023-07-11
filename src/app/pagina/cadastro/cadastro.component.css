@@ -1,0 +1,43 @@
+.cadastro{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+label{
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+}
+
+p{
+  color: white;
+  font-size: 15px;
+}
+
+.botao{
+   border-radius: 30px;
+   font-size: 15px;
+   background-color: white;
+}
+
+.campo{
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+p{
+  color: white;
+}
+
+.center{
+  text-align: center;
+  font-weight: bold;
+}
